@@ -1,0 +1,27 @@
+﻿python : test_invalid (test_scpi_lab.TestCommandParse) ... ok
+所在位置 行:30 字符: 1
++ python -m unittest discover -s tests -v 2>&1 | Out-File -Encoding utf ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (test_invalid (t...ndParse) ... ok:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+test_multi_parameters (test_scpi_lab.TestCommandParse) ... ok
+test_query_and_case (test_scpi_lab.TestCommandParse) ... ok
+test_unit_prefix (test_scpi_lab.TestCommandParse) ... ok
+test_dmm_range (test_scpi_lab.TestInstruments) ... ok
+test_output_switch (test_scpi_lab.TestInstruments) ... ok
+test_range_check_blocks_command (test_scpi_lab.TestInstruments) ... ok
+test_set_and_readback (test_scpi_lab.TestInstruments) ... ok
+test_instrument_error_queue (test_scpi_lab.TestSession) ... ok
+test_query_requires_open (test_scpi_lab.TestSession) ... ok
+test_timeout_must_be_positive (test_scpi_lab.TestSession) ... ok
+test_write_command_as_query_rejected (test_scpi_lab.TestSession) ... ok
+test_csv_output (test_scpi_lab.TestSweep) ... ok
+test_invalid_sweep (test_scpi_lab.TestSweep) ... ok
+test_point_count_and_last_point (test_scpi_lab.TestSweep) ... ok
+test_statistics_with_noise (test_scpi_lab.TestSweep) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.001s
+
+OK
